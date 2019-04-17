@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-    $('.trigger-modal').modal();
-
     var config = {
         apiKey: "AIzaSyA6LeTtAdzgiH-3XtCbEQefoSVkb4QjvR0",
         authDomain: "fir-project1-4a1ea.firebaseapp.com",

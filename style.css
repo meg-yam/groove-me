@@ -1,3 +1,5 @@
+/* Style for first page */
+
 nav {
     position: fixed;
     background: rgba(0, 0, 0, 0.2);
@@ -6,3 +8,5 @@ nav {
 .block {
     height: 6rem;
 }
+
+
