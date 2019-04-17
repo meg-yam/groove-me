@@ -1,0 +1,36 @@
+/* Style for second page */
+
+nav {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.user-info {
+    height: 10rem;
+    padding: 2rem;
+}
+
+.white-text {
+    font-size: 3rem;
+    margin-top: 10rem;
+}
+
+.box {
+    height: 8rem;
+}    
+
+img {
+    margin-top: 3rem;
+    height: 13rem;
+    width: 14rem;
+    border-radius: 50%;
+}
+
+.refine-btns {
+    margin-bottom: 3rem;
+}
+
+.answer {
+    margin: 5px;
+    height: 7rem;
+}
