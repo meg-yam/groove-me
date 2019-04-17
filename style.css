@@ -5,6 +5,27 @@ nav {
     background: rgba(0, 0, 0, 0.2);
 }
 
+.brand-logo {
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+i:hover {
+    color: black;
+}
+
+.brand-logo:hover {
+    background-color: #00cc66;
+    color: black;
+}
+
+h2 {
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
 .block {
     height: 6rem;
 }
