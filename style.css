@@ -1,16 +1,8 @@
-.navbar-fixed {
-    margin-bottom: 1rem;
+nav {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.2);
 }
 
-.user-info {
-    height: 10rem;
-}
-
-.box {
-    height: 8rem;
-}
-
-img {
-    height: 10rem;
-    width: 10rem;
+.block {
+    height: 6rem;
 }
