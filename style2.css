@@ -1,6 +1,5 @@
 /* Style for second page */
 
-
 nav {
     position: fixed;
     background: rgba(0, 0, 0, 0.2);
@@ -12,10 +11,16 @@ nav {
 }
 
 #username {
+
+    height: 10rem;
+    padding: 2rem;
+}
+
+.white-text {
+
     font-size: 3rem;
     margin-top: 10rem;
 }
-
 
 .box {
     height: 8rem;
