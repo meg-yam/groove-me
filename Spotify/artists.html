@@ -11,20 +11,8 @@
 <body>
   <script src="http://code.jquery.com/jquery-3.4.0.min.js"
     integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
-  <script>
-    var accessToken = sessionStorage.getItem('accessToken');
-
-    $.ajax({
-      url: 'https://api.spotify.com/v1/me/following?type=artist',
-      method: 'GET',
-      headers: {
-        'Authorization': 'Bearer ' + accessToken
-      }
-    })
-      .then(function (response) {
-        console.log(response);
-      })
-  </script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+    <script type= "text/javascript" src = "project.js"></script>
 </body>
 
 </html>
