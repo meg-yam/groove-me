@@ -1,5 +1,9 @@
 /* Style for first page */
 
+body {
+    background-image: url("images/br.jpg");
+}
+
 nav {
     position: fixed;
     background: rgba(0, 0, 0, 0.2);
@@ -18,7 +22,7 @@ i:hover {
     color: black;
 }
 
-h2 {
+h1 {
     font-family: 'Allerta Stencil', sans-serif;
 }
 

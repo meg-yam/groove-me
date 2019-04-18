@@ -15,7 +15,7 @@
     <title>GrooveMe</title>
 </head>
 
-<body class="grey darken-4">
+<body>
 
         <div>
             <nav>
@@ -38,13 +38,15 @@
                     <div class="card-content white-text">
                         <span class="card-title">
                             
-                            <h2 class="black-text center">
+                            <h1 class="black-text center">
                                 Link up your Spotify account to get groovin'!
-                            </h2>
+                            </h1>
                             <div class="row">
+                                <!-- Button to authorize Spotify account. -->
                                 <div class="card-action center">
-                                    <a class="grey darken-3 waves-effect waves-light btn-floating btn-large pulse">
-                                        <i class="large material-icons white-text">add</i>
+                                    <a href="https://accounts.spotify.com/authorize?client_id=425ee334c96f4b839be025d690f42961&response_type=token&redirect_uri=http://localhost:8080/callback&scope=user-follow-read" 
+                                        class="grey darken-3 waves-effect waves-light btn-floating btn-large pulse">
+                                            <i class="large material-icons white-text">add</i>
                                     </a>
                                 </div>
                             </div>
@@ -54,13 +56,14 @@
                 </div>
             </div>
         </div>
+        
     </div>
 
     <!-- jQuery link -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
     <!-- Javascript link -->
-    <script type="text/javascript" src="./project.js"></script>
+    <script type="text/javascript" src="project.js"></script>
 
 </body>
 </html>

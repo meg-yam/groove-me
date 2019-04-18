@@ -1,19 +1,21 @@
 /* Style for second page */
 
+
 nav {
     position: fixed;
     background: rgba(0, 0, 0, 0.2);
 }
 
 .user-info {
-    height: 10rem;
+    height: 5rem;
     padding: 2rem;
 }
 
-.white-text {
+#username {
     font-size: 3rem;
     margin-top: 10rem;
 }
+
 
 .box {
     height: 8rem;
@@ -34,3 +36,4 @@ img {
     margin: 5px;
     height: 7rem;
 }
+
