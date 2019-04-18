@@ -6,11 +6,18 @@ nav {
 }
 
 .user-info {
+    height: 5rem;
+    padding: 2rem;
+}
+
+#username {
+
     height: 10rem;
     padding: 2rem;
 }
 
 .white-text {
+
     font-size: 3rem;
     margin-top: 10rem;
 }
@@ -34,3 +41,4 @@ img {
     margin: 5px;
     height: 7rem;
 }
+
